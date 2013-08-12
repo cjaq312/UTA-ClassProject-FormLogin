@@ -1,0 +1,15 @@
+create database login;
+
+use login;
+
+create table login(user varchar(10) not null,pass varchar(50) not null,firstname varchar(50) not null,lastname varchar(50),sex char(6) not null,age int(3) not null,mailid varchar(50),address varchar(50),city char(20),state char(20),country char(20),md5 varchar(50))engine innodb;
+
+create table hi(user varchar(50) not null,pass varchar(50) not null)engine innodb;
+
+show tables;
+
+desc login;
+
+desc hi;
+
+
